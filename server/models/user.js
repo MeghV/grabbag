@@ -141,4 +141,8 @@ UserSchema.methods = {
     }
 };
 
+<<<<<<< HEAD
 mongoose.model('User', UserSchema);
+=======
+mongoose.model('User', UserSchema);
+>>>>>>> f9def9409831d0bed4231137003fcc950e27d819
