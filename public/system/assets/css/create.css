@@ -1,0 +1,97 @@
+body {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	color: white;
+	background: url('../img/bg.png') no-repeat center center fixed; 
+ 	background-size: cover;
+}
+
+#top-banner {
+	padding-top: 8px;
+	padding-bottom: 6px;
+	border-bottom: 1px solid white;
+}
+
+.section, .section-interior {
+	background-color: rgb(211,211,211);
+	background-color: rgba(211,211,211,.4);
+	margin-right: 20px;
+	border-radius: 10px;
+}
+
+.section-interior {
+	background-color: rgba(211,211,211,.0);
+}
+
+.giftline {
+	color: white;
+	font-size: 17pt;
+	text-align: right;
+	vertical-align: middle;
+	display:inline-block;
+	height: 72px;
+	line-height: 72px;
+}
+
+.giftline:hover {
+	font-weight: bold;
+}
+
+h1 {
+	font-weight: 300;
+	margin-top: 50px;
+	margin-bottom: 40px;
+	color: white;
+}
+
+h2, h3 {
+	font-weight: 400;
+	text-align: center;
+}
+
+h2 {
+	font-size: 40px;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+input[type="checkbox"] {
+    display:none;
+}
+
+input[type="checkbox"]:checked {
+	display: inline-block;
+}
+
+label {
+	cursor: pointer;
+}
+
+.description {
+	margin-bottom: 33px;
+}
+
+input[type="text"].form-control {
+	margin-bottom: 10px;
+	font-size: 20px;
+	text-align: center;
+}
+
+textarea.form-control {
+	color: black;
+	font-size: 20px;
+	resize: none;
+}
+
+#submit {
+	margin-top: 20px;
+	padding: 5px;
+	margin-left: 725px;
+}
+
+input[type="submit"] {
+	width: 100%;
+	font-size: 20px;
+}
