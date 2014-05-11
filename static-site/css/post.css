@@ -1,0 +1,239 @@
+.profile-image {
+	background-image: url(../img/megh.jpg);
+	background-size: cover;
+	background-position: top center;
+	border-radius: 10000px;
+	height: 80px;
+	width: 80px;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.singular-comment {
+	padding-left: 30px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid rgba(255,255,255,.35);
+	position: relative;
+}
+
+.prof-img {
+	display: table;
+    margin-bottom: 3px;
+}
+
+.prof-img h4 {
+	display: table-cell;
+                                    vertical-align: middle;
+                                    padding-left: 5px;
+                                    font-weight: 300;
+                                    font-size: 1.2em;
+}
+.img {
+	background-image: url(../img/josiah.png); background-size: cover; background-position: top center; 
+                                    border-radius: 10000px; 
+                                    height: 40px; 
+                                    width: 40px; 
+                                    display: table-cell; 
+                                    vertical-align: middle;
+}
+
+.actual-comment {
+	text-align: left;
+                                 font-size: 1.1em;
+}
+
+.voting {
+	position: absolute;
+      top: 0;
+      left: 0;
+      margin-left: -40px;
+}
+
+.voting li {
+	margin-bottom: 5px;
+}
+.upvote {
+	background-image: url(../img/present_icon.png);
+	  background-size: cover;
+	  background-position: center;
+	  height: 20px;
+	  width: 20px;
+}
+
+.product {
+background-image: url(http://ecx.images-amazon.com/images/I/71OB6i6fzwL.png); 
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: center; 
+    height: 80px; 
+    width: 80px; display: table-cell; vertical-align: middle;
+    border: 1px solid white;
+    border-radius: 6px;
+}
+
+.product-image {
+	display: table; margin-bottom: 15px;
+}
+.voting ul {
+	list-style: none;
+}
+
+.name {
+	display: table-cell;
+	vertical-align: middle;
+	padding-left: 5px;
+}
+.user-info {
+	display: table;
+	margin-bottom: 15px;
+}
+
+.price {
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+.price span {
+	margin: 0;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+.price h5 {
+	display: inline;
+	font-size: 4em;
+}
+
+.price h1 {
+	display: inline;
+	font-size: 5.5em;
+}
+.post-info {
+	position: relative;
+	padding: 20px;
+	border: 1px solid white;
+	border-radius: 6px 0px 0px 6px;
+	padding-bottom: 0px;
+	border-right: none;
+}
+
+.description p {
+	text-align: left;
+	font-size: 2em;
+	margin-bottom: 8px;
+}
+
+.row {
+	margin-left: -40px;
+	margin-right: -40px;
+}
+
+.time {
+
+	text-align: center;
+	width: 100%;
+
+}
+
+.price-time {
+	margin-left: -20px;
+	margin-right: -20px;
+	background: rgba(255,255,255,.2);
+}
+
+.add-comment {
+	position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-top: 1px solid white;
+    height: 60px;
+}
+
+.add-comment textarea {
+	margin: 0px; 
+	border: none; 
+	background: transparent;
+	resize: none;
+	width: 76%;
+	float: left;
+	height: 60px;
+	font-family: Lato, sans-serif;
+	padding-left: 10px;
+}
+
+
+.add-comment textarea:focus {
+	outline: none;
+}
+
+.amazon {
+	float: left;
+}
+
+.post {
+	float: right;
+	font-weight: 500;
+}
+
+.top-title {
+	margin-bottom: 10px;
+	margin-left: -15px;
+	margin-right: -15px;
+	border-bottom: 1px solid white;
+}
+
+.add-comment button {
+    height: 60px;
+    background: transparent;
+    outline: none;
+    border: none;
+    width: 12%;
+    border-left: 1px solid white;
+    font-family: Lato, sans-serif;
+}
+.comments {
+	height: 539px;
+	border: 1px solid white;
+	border-radius: 0px 6px 6px 0px;
+	background: rgba(255,255,255,.2);
+}
+.categories ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	display: inline-block;
+}
+
+.categories li {
+	height: 40px;
+	display: inline-block;
+	border: 1px solid white;
+	border-radius: 6px;
+	width: 40px;
+	margin-right: 10px;
+}
+
+.categories li:last-of-type {
+	margin-right: 0px;
+}
+
+.inner-pic {
+	height: 20px;
+	width: 20px;
+	background-size: cover;
+	background-position: center;
+	margin: 10px;
+}
+
+.book {
+	background-image: url(../img/categories/Book@2x.png);
+}
+
+.network {
+	background-image: url(../img/categories/Network_Tree@2x.png);
+}
+
+.wrench {
+	background-image: url(../img/categories/Spanner@2x.png);
+}
